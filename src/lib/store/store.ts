@@ -1,9 +1,10 @@
-import { configureStore } from '@reduxjs/toolkit';
-import featureReducer from './featureSlice'; // Import your slice
-
+import { configureStore } from "@reduxjs/toolkit";
+import populationReducer from "./populationSlice";
+import indicatorReducer from "./indicatorSlice";
 const store = configureStore({
   reducer: {
-    yourSlice: featureReducer, // Add your slice reducer here
+    populationSlice: populationReducer, // Add the population slice reducer here
+    indicatorSlice: indicatorReducer, // Add the expectancy slice reducer here
   },
 });
 

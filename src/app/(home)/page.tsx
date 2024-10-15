@@ -1,9 +1,7 @@
-import ExampleComponent from "@/ui/ExampleComponent";
+import HomeComponent from "@/ui/HomeComponent";
 
 const Home = () => {
-  return (
-      <ExampleComponent />
-  );
+  return <HomeComponent />;
 };
 
 export default Home;
